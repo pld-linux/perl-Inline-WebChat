@@ -23,7 +23,7 @@ Summary(uk):	Модуль для Perl Inline::WebChat
 Summary(zh_CN):	Inline::WebChat Perl дё©И
 Name:		perl-Inline-WebChat
 Version:	0.62
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz

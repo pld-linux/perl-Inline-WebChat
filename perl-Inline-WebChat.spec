@@ -13,7 +13,7 @@ Summary(fr):	Module Perl Inline::WebChat
 Summary(it):	Modulo di Perl Inline::WebChat
 Summary(ja):	Inline::WebChat Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Inline::WebChat ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Inline::WebChat
+Summary(nb):	Perlmodul Inline::WebChat
 Summary(pl):	Modu³ Perla Inline::WebChat
 Summary(pt):	Módulo de Perl Inline::WebChat
 Summary(pt_BR):	Módulo Perl Inline::WebChat

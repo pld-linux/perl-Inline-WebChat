@@ -1,8 +1,26 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pnam	WebChat
-Summary:	Inline::WebChat perl module
-Summary(pl):	Modu³ perla Inline::WebChat
+%define		pdir	Inline
+%define		pnam	WebChat
+Summary:	Inline::WebChat Perl module
+Summary(cs):	Modul Inline::WebChat pro Perl
+Summary(da):	Perlmodul Inline::WebChat
+Summary(de):	Inline::WebChat Perl Modul
+Summary(es):	Módulo de Perl Inline::WebChat
+Summary(fr):	Module Perl Inline::WebChat
+Summary(it):	Modulo di Perl Inline::WebChat
+Summary(ja):	Inline::WebChat Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Inline::WebChat ÆŞ ¸ğÁÙ
+Summary(no):	Perlmodul Inline::WebChat
+Summary(pl):	Modu³ Perla Inline::WebChat
+Summary(pt):	Módulo de Perl Inline::WebChat
+Summary(pt_BR):	Módulo Perl Inline::WebChat
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::WebChat
+Summary(sv):	Inline::WebChat Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::WebChat
+Summary(zh_CN):	Inline::WebChat Perl Ä£¿é
 Name:		perl-Inline-WebChat
 Version:	0.62
 Release:	1
@@ -29,6 +47,7 @@ w skryptach perlowych.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT

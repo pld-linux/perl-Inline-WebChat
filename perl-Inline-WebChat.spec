@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Inline
-%define	pnam	WebChat
+%define		pdir	Inline
+%define		pnam	WebChat
 Summary:	Inline::WebChat Perl module
 Summary(cs):	Modul Inline::WebChat pro Perl
 Summary(da):	Perlmodul Inline::WebChat

@@ -37,7 +37,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Inline::WebChat - mix Perl and WebChat in a Perl script.
-    
+
 %description -l pl
 Modu³ Inline::WebChat - pozwalaj±cy na mieszanie kodu Perla i WebChata
 w skryptach perlowych.
@@ -47,7 +47,7 @@ w skryptach perlowych.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{!?_without_tests:%{__make} test}
 

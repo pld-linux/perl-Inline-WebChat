@@ -27,6 +27,7 @@ Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	3cbad5b19ca390fc6f160953e53d21ca
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Inline >= 0.1
 BuildRequires:	perl-WWW-Chat >= 0.62

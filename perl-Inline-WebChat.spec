@@ -25,7 +25,8 @@ Summary(zh_CN):	Inline::WebChat Perl Ä£¿é
 Name:		perl-Inline-WebChat
 Version:	0.62
 Release:	2
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3cbad5b19ca390fc6f160953e53d21ca

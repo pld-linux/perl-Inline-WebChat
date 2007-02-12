@@ -6,22 +6,22 @@
 %define		pdir	Inline
 %define		pnam	WebChat
 Summary:	Inline::WebChat Perl module
-Summary(cs):	Modul Inline::WebChat pro Perl
-Summary(da):	Perlmodul Inline::WebChat
-Summary(de):	Inline::WebChat Perl Modul
-Summary(es):	Módulo de Perl Inline::WebChat
-Summary(fr):	Module Perl Inline::WebChat
-Summary(it):	Modulo di Perl Inline::WebChat
-Summary(ja):	Inline::WebChat Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Inline::WebChat ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Inline::WebChat
-Summary(pl):	Modu³ Perla Inline::WebChat
-Summary(pt):	Módulo de Perl Inline::WebChat
-Summary(pt_BR):	Módulo Perl Inline::WebChat
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Inline::WebChat
-Summary(sv):	Inline::WebChat Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Inline::WebChat
-Summary(zh_CN):	Inline::WebChat Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Inline::WebChat pro Perl
+Summary(da.UTF-8):   Perlmodul Inline::WebChat
+Summary(de.UTF-8):   Inline::WebChat Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Inline::WebChat
+Summary(fr.UTF-8):   Module Perl Inline::WebChat
+Summary(it.UTF-8):   Modulo di Perl Inline::WebChat
+Summary(ja.UTF-8):   Inline::WebChat Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Inline::WebChat í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Inline::WebChat
+Summary(pl.UTF-8):   ModuÅ‚ Perla Inline::WebChat
+Summary(pt.UTF-8):   MÃ³dulo de Perl Inline::WebChat
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Inline::WebChat
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::WebChat
+Summary(sv.UTF-8):   Inline::WebChat Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Inline::WebChat
+Summary(zh_CN.UTF-8):   Inline::WebChat Perl æ¨¡å—
 Name:		perl-Inline-WebChat
 Version:	0.62
 Release:	3
@@ -40,8 +40,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Inline::WebChat - mix Perl and WebChat in a Perl script.
 
-%description -l pl
-Modu³ Inline::WebChat - pozwalaj±cy na mieszanie kodu Perla i WebChata
+%description -l pl.UTF-8
+ModuÅ‚ Inline::WebChat - pozwalajÄ…cy na mieszanie kodu Perla i WebChata
 w skryptach perlowych.
 
 %prep

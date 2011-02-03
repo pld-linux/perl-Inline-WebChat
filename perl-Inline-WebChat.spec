@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Inline
 %define		pnam	WebChat
+%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::WebChat Perl module
 Summary(cs.UTF-8):	Modul Inline::WebChat pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::WebChat
@@ -24,15 +24,15 @@ Summary(uk.UTF-8):	Модуль для Perl Inline::WebChat
 Summary(zh_CN.UTF-8):	Inline::WebChat Perl 模块
 Name:		perl-Inline-WebChat
 Version:	0.62
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3cbad5b19ca390fc6f160953e53d21ca
-BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Inline >= 0.1
 BuildRequires:	perl-WWW-Chat >= 0.62
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -56,7 +56,6 @@ w skryptach perlowych.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 

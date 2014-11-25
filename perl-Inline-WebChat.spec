@@ -30,12 +30,15 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	3cbad5b19ca390fc6f160953e53d21ca
+URL:		http://search.cpan.org/dist/Inline-WebChat/
 BuildRequires:	perl-Inline >= 0.1
-%{?with_tests:BuildRequires:	perl-URI}
 BuildRequires:	perl-WWW-Chat >= 0.62
 BuildRequires:	perl-devel >= 1:5.8.0
-%{?with_tests:BuildRequires:	perl-libwww}
 BuildRequires:	rpm-perlprov >= 4.1-13
+%if %{with tests}
+BuildRequires:	perl-URI
+BuildRequires:	perl-libwww
+%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

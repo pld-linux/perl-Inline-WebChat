@@ -4,7 +4,6 @@
 
 %define		pdir	Inline
 %define		pnam	WebChat
-%include	/usr/lib/rpm/macros.perl
 Summary:	Inline::WebChat Perl module
 Summary(cs.UTF-8):	Modul Inline::WebChat pro Perl
 Summary(da.UTF-8):	Perlmodul Inline::WebChat
